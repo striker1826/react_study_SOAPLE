@@ -7,10 +7,12 @@ import reportWebVitals from "./reportWebVitals";
 import CommentList from "./chapter_05/CommentList";
 import Accommodate from "./chapter_07/Accommodate";
 import ConfirmButton from "./chapter_08/ConfirmButton";
+import Toolbar from "./chapter_09/Toolbar";
+import LandingPage from "./chapter_09/LandingPage";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ConfirmButton />
+    <LandingPage />
   </React.StrictMode>,
   document.getElementById("root")
 );

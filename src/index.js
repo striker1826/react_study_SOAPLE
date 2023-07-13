@@ -1,20 +1,14 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-import CommentList from "./chapter_05/CommentList";
-import Accommodate from "./chapter_07/Accommodate";
-import ConfirmButton from "./chapter_08/ConfirmButton";
-import Toolbar from "./chapter_09/Toolbar";
-import LandingPage from "./chapter_09/LandingPage";
-
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
   <React.StrictMode>
-    <LandingPage />
-  </React.StrictMode>,
-  document.getElementById("root")
+    <App />
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

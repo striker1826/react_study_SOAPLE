@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function FruitSelect(props) {
-  const [value, setValue] = useState("apple");
+  const [value, setValue] = useState("grape");
 
   const handleChange = (event) => {
     setValue(event.target.value);

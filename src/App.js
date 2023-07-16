@@ -1,9 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
-import AttendanceBook from "./chapter_10/AttendanceBook";
+import FruitSelect from "./chapter_11/FruitSelect";
 
 function App() {
-  return <AttendanceBook />;
+  return <FruitSelect />;
 }
 
 export default App;

@@ -1,8 +1,8 @@
 import "./App.css";
-import IsLogin from "./prac/chapter_09/IsLogin";
+import StudentList from "./prac/chapter_10/StudentList";
 
 function App() {
-  return <IsLogin />;
+  return <StudentList />;
 }
 
 export default App;

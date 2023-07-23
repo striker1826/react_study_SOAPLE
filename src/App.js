@@ -1,8 +1,8 @@
 import "./App.css";
-import Library from "./prac/chapter_03/Library";
+import Clock from "./prac/chapter_04/Clock";
 
 function App() {
-  return <Library />;
+  return <Clock />;
 }
 
 export default App;

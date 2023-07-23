@@ -1,8 +1,8 @@
 import "./App.css";
-import Counter from "./prac/useEffect/Counter";
+import Accommodate from "./prac/chapter_07/Accommodate";
 
 function App() {
-  return <Counter />;
+  return <Accommodate />;
 }
 
 export default App;

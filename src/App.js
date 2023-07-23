@@ -1,9 +1,9 @@
 import "./App.css";
-import Comment from "./prac/chapter_05/comment";
-import CommentList from "./prac/chapter_05/commentList";
+import Clock from "./prac/chapter_04/Clock";
+import SetClock from "./prac/chapter_04/setClock";
 
 function App() {
-  return <CommentList />;
+  return <Clock />;
 }
 
 export default App;

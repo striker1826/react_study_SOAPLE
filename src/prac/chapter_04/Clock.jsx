@@ -1,4 +1,12 @@
+import { useState } from "react";
+
 function Clock() {
+  const [currentTime, setCurrentTime] = useState(true);
+
+  setInterval(() => {
+    setCurrentTime(() => setCurrentTime(() => !currentTime));
+  });
+
   return (
     <div>
       <h1>안녕, 리액트!</h1>

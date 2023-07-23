@@ -1,9 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
-import FruitSelect from "./chapter_11/FruitSelect";
+import Library from "./prac/chapter_03/Library";
 
 function App() {
-  return <FruitSelect />;
+  return <Library />;
 }
 
 export default App;

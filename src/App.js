@@ -1,8 +1,8 @@
 import "./App.css";
-import Accommodate from "./prac/chapter_07/Accommodate";
+import ConfirmButton from "./prac/chapter_08/ConfirmButton";
 
 function App() {
-  return <Accommodate />;
+  return <ConfirmButton />;
 }
 
 export default App;

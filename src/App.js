@@ -1,9 +1,8 @@
 import "./App.css";
-import Clock from "./prac/chapter_04/Clock";
-import SetClock from "./prac/chapter_04/setClock";
+import Counter from "./prac/useEffect/Counter";
 
 function App() {
-  return <Clock />;
+  return <Counter />;
 }
 
 export default App;

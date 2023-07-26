@@ -9,7 +9,7 @@ const list = [
   },
   {
     id: 3,
-    name: "Bill",
+    name: "Joel",
   },
   {
     id: 4,
